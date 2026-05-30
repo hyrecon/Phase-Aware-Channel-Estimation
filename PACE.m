@@ -20,7 +20,7 @@ function [h_hat, phi1_hat, theta_hat, diag_out] = phase_aware_lifted_CE(yp, xp, 
 
     yp = yp(:); xp = xp(:); n = n_idx(:);
 
-    % ---- Sufficient statistics (Sec. IV-B1) : lines 3-6 ----
+    % Sufficient statistics
     w  = abs(xp).^2;                 % |x_p[n]|^2
     s0 = sum(w);                     % pilot energy
     s1 = sum(n .* w);                % time-centering of energy
@@ -63,7 +63,7 @@ function [h_hat, phi1_hat, theta_hat, diag_out] = phase_aware_lifted_CE(yp, xp, 
             error('mode must be ''LS'' or ''LMMSE''.');
     end
 
-    % ---- Residual phase-slope diagnostic : line 21, Eq.(29) ----
+    % Residual phase-slope diagnostic
     phi1_hat  = imag(theta1 / theta0);
     theta_hat = [theta0; theta1];
 end
