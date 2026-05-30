@@ -36,4 +36,4 @@ USRP N200 · semi-passive backscatter tag · planar Yagi-Uda antenna array · mi
 
 ## 📄 Publication
 
-**H. Ryu** and S. Kim, "Ultra-low-power Monostatic Backscatter Platform with Phase-Aware Channel Estimation and System-Level Validation," [arXiv:2601.02227](https://arxiv.org/abs/2601.02227), Jan. 2026.
+**H. Ryu** and S. Kim, "Ultra-low-power Monostatic Backscatter Platform with Phase-Aware Channel Estimation and System-Level Validation," [IEEE Internet of Things Journal]([https://arxiv.org/abs/2601.02227](https://ieeexplore.ieee.org/document/11535284)), May. 2026.
